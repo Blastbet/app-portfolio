@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyanDark">#003f3f</color>
+    <color name="cyan">#00afaf</color>
+    <color name="cyanLight">#5fffff</color>
+
+    <color name="cyanTranslucent">#a000bfbf</color>
+    <color name="cyanTranslucentDark">#a0003f3f</color>
+
+    <color name="redDark">#6f0000</color>
+    <color name="redLight">#af5454</color>
+
+    <color name="colorAccent">@color/cyanLight</color>
+    <color name="colorPrimaryDark">@color/cyanDark</color>
+    <color name="colorPrimary">@color/cyan</color>
+</resources>

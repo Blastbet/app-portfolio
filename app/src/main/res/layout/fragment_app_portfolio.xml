@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blastbeat.nanodegree.myappportfolio.AppPortfolioActivityFragment"
+    tools:showIn="@layout/activity_app_portfolio"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/default_vertical_margin"
+        android:textSize="@dimen/text_size_title"
+        android:paddingBottom="@dimen/title_vertical_margin" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/default_vertical_margin"
+        android:divider="@android:color/transparent"
+        android:layout_marginLeft="@dimen/list_horizontal_margin"
+        android:layout_marginRight="@dimen/list_horizontal_margin"
+        android:id="@+id/app_list_view"/>
+
+</LinearLayout>
